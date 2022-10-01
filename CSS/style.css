@@ -1,0 +1,94 @@
+body {
+
+  background: #fff !important;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: hsl(206, 12%, 12%);
+}
+a:hover{
+  color: hsl(206, 80%, 20%);
+  font-weight:500;
+}
+
+.section-title h2 {
+  text-shadow: 1px 1px 2px #4444;
+}
+/*****************************
+    NavBar
+******************************/
+header nav {
+  background: #fff;
+  box-shadow: 0px 0px 5px #4444;
+}
+header nav a.navbar-brand h2 {
+
+  color: var(--bs-orange);
+}
+header nav ul.action-menu .nav-item .nav-link {
+  margin: 0px 20px;
+  font-size: 18px;
+}
+
+
+.about .content {
+  padding: 0 80px;
+}
+.about .col-lg-5{
+  padding: 0 80px;
+background-image: url("https://vesit.ves.ac.in/storage/amphi2.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.about .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #5f5950;
+}
+
+.about .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.about .content p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+  color: #5f5950;
+  font-size: 15px;
+
+}
+
+.about .content ul li + li {
+  margin-top: 15px;
+  color: #5f5950;
+  
+
+}
+
+.about .content ul li {
+  position: relative;
+  padding-left: 26px;
+  color: #5f5950;
+  font-size: 15px;
+
+
+}
+
+.about .content ul i {
+  font-size: 20px;
+  color: #ffb03b;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}

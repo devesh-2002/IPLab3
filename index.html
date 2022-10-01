@@ -1,15 +1,435 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css">
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- End Bootstrap CSS -->
+
+    <!--Custom Css-->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!--End Custom Css-->
 </head>
+
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    
+
+   
+    <!--Header Start-->
+    <header>
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <h2 class="fw-bold  mb-2 mb-lg-0 mb-sm-0">VESIT</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="bi bi-list"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+        <!--Navbar End-->
+    </header>
+    <!--Header End-->
+
+
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about mt-5">
+            <div class="container-fluid">
+                <h2 class="h1-responsive font-weight-bold text-center my-2">About</h2>
+            
+                <div class="row  pt-5 pb-5">
+
+                    <div class="col-lg-5">                    </div>
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+                        <div class="content">
+                        <p> Vivekanand Education Society was founded in 1959 by Shri. Hashu Advani, along with ten other members, who shared the dream of providing qualitative education to the youth of our country.<br> In the beginning, Vivekanand Education Society had a very modest launch, with just 256 students and six classrooms, in the humble barracks of Chembur Camp. But today, it proudly boast of having 3, 75, 000 sq. ft. land, housing 12 buildings and 28 Institutions, ranging from a crèche to Ph.D. Centers. It has over 2000 teaching and non-teaching staff, and more than 18,000 students who pass through its hallowed portals each year.
+
+<br>Vivekanand Education Society’s Institute of Technology (VESIT) was established in 1984, with the aim of providing professional education in the field of Engineering. This institute is affiliated to the University of Mumbai and follows the rules and regulations laid down by government, AICTE, and University for admission; 51% reserved for Sindhi Linguistic minority and 49% through CAP test. The management quota has been surrendered to DTE to make admission centralized.
+</p>
+<p>
+<b>Vision:</b>
+To create a vibrant knowledge-oriented environment with innovative teaching practices and to inculcate tradition of socially conscious application of technology.
+</p>
+<p>
+<b>Mission:</b>
+<ul>
+<li> To inculcate culture of value based education.</li>
+<li>To enthuse students to develop in an ambient environment of caring and of sharing information.
+</li><li>To enable students to work towards excellence in their chosen fields with professional bent of mind.</ul>
+</li> </p>             </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+        <section>
+            <div class="container course pb-5 pt-5">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Courses</h2>
+        
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://vesit.ves.ac.in/storage/departments/labs/1596042855IT_2.JPG"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">IT Department</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://vesit.ves.ac.in/storage/departments/labs/1595317635image9.jpg"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">CS Department</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://vesit.ves.ac.in/storage/departments/labs/15855708401.png"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Instrumentation Department</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://vesit.ves.ac.in/storage/departments/labs/1585158593extc_402.JPG"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">EXTC Department</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://vesit.ves.ac.in/storage/departments/labs/1636981065209.jpg"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">ETRX Department</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card box">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="https://vesit.ves.ac.in/storage/departments/labs/1595317659image1.jpg"
+                                    class="img-fluid" />
+                                <a href="#!">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">AIDS Department</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#!" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Gallery</h2>
+                <!--Section description-->
+
+                <!-- Gallery -->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="https://vesit.ves.ac.in/storage/index/tecg4good%20banner.jpeg"
+                            class="w-100 shadow-1-strong rounded mb-6"  />
+
+                        <img src="https://vesit.ves.ac.in/storage/amphi2.JPG"
+                            class="w-100 shadow-1-strong rounded mb-4"  />
+                    </div>
+
+                    <div class="col-sm-6">
+                        <img src="https://vesit.ves.ac.in/storage/canteen1.JPG"
+                            class="w-100 shadow-1-strong rounded mb-4" />
+                        <img src="https://vesit.ves.ac.in/storage/lab1.JPG"
+                            class="w-100 shadow-1-strong rounded mb-4" />
+                    </div>
+                </div>
+                <!-- Gallery -->
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container mb-6 align-content-center">
+                <!--Section: Contact v.2-->
+                <section class="mb-6">
+
+                    <!--Section heading-->
+                    <h2 class="h1-responsive font-weight-bold text-primary text-center my-4">Contact us</h2>
+
+                    <div class="row ">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <form id="contact-form" name="contact-form" method="">
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">                                            <label for="name" class="">Your name</label>
+
+                                            <input type="text" id="name" name="name" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">                                            <label for="email" class="">Your email</label>
+
+                                            <input type="text" id="email" name="email" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">                                            <label for="subject" class="">Subject</label>
+
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">                                            <label for="message">Your message</label>
+
+                                            <textarea type="text" id="message" name="message" rows="2"
+                                                class="form-control md-textarea"></textarea>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                
+                                <!--Grid row-->
+                                <div class="text-center text-md-left">
+                                    <a class="btn btn-primary "
+                                        onclick="document.getElementById('contact-form').submit();">Send</a>
+                                </div>
+                            </div>
+                            </form>
+        
+
+                    </div>
+
+                </section>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-danger py-3 text-white">
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                              Address : 
+                            </h6>
+                            <p>
+                                Hashu Advani Memorial Complex, Collector's Colony
+                                Chembur, Mumbai, Maharashtra 400074
+                                                            </p>
+                                                           
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Related Links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">DTE Maharashtra
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Mumbai University
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Mandatory Disclosure
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">AICTE
+                                </a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">RTI Information
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">NIRF
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">NPTEL Swayam
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class=" fw-bold mb-4">
+                                Contact Us
+                            </h6>
+                            <p><i class="fa fa-facebook"></i>&nbsp;  Facebook</p>
+                            <p>
+                                <i class="fa fa-twitter"></i>&nbsp; 
+                               Twitter
+                            </p>
+                            <p><i class="fa fa-instagram"></i>&nbsp;  Instagram</p>
+                            <p><i class="fa fa-linkedin"></i> &nbsp;  LinkedIn</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center py-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                Developed and Maintained by <b>Website Team</b>(Faculty & Students)
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
 </body>
+
 </html>
